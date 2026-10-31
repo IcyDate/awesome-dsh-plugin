@@ -3617,7 +3617,7 @@ dsh plugin --profile web add dshmarket
 - [icearia0219/dsh-memory-spaces](https://github.com/icearia0219/dsh-memory-spaces) — 用户治理的跨会话记忆空间，提供独立的来源与使用关系、来源追踪、版本管理和发送前注入检查。
 - [Icstick/dsh-adaptive-context](https://github.com/Icstick/dsh-adaptive-context) — 带治理的长期记忆：只追加证据账本、写入闸门、7 级权威声明与取代链，pre-step 按领域配额预算注入。
 - [Icstick/dsh-inject-scheduler](https://github.com/Icstick/dsh-inject-scheduler) — DSH 注入调度器：跨插件注入段的注册/排序/记账落在官方 storageDomain，含冲突检测与每会话预算汇总（B10 面板数据源）。
-- [IcyDate/ofttold-memory](https://github.com/IcyDate/ofttold-memory) — 把你亲手写的 markdown 笔记文件夹摆进每个会话——只读你点名的几段，不自动总结、不替你写，缺哪个起始文件就补哪个。写的那一半做成 skill：一天一篇日记、索引行、当前情绪值。
+- [IcyDate/ofttold-memory](https://github.com/IcyDate/ofttold-memory) — 让 AI 自己写、自己维护的一份记忆——日记、索引、自我描述、此刻的情绪；插件每个会话把她写的那几段摆回她眼前。只读你点名的几段，不自动总结、不替她写正文，只补缺的起始文件、给没有日期的锚点补上起算日，写过的文件一个字不动。怎么写做成 skill 随包发。
 - [Ikalus1988/MisakaNet](https://github.com/Ikalus1988/MisakaNet) — 失败恢复记忆库：从真实工程会话中搜索和记录失败恢复教训，支持 BM25 + 语义 RAG 检索和知识库管理。
 - [imaused/dsh-kb-lite](https://github.com/imaused/dsh-kb-lite) — 本地知识库：五个工具，导入 Markdown、文本与 PDF，用 BM25 或 BM25 + 本地向量的混合检索查找，回答时带原文引用。离线运行，不需要数据库服务。需 Node.js 18+ 与 Python 3.9+；导入 PDF 需 pymupdf。
 - [isheng-eqi/dsh-hermes-memory](https://github.com/isheng-eqi/dsh-hermes-memory) — DSH 上 hermes-agent 记忆机制的忠实移植（MEMORY.md / USER.md）：有界双记忆库（2200/1375 字符）、单个 memory 工具（add/replace/remove/batch 全有或全无）、每会话冻结快照注入与 nudge 提醒、DSH 原生 JSON 存储——零外部依赖、零 LLM 成本。
